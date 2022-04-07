@@ -4,7 +4,11 @@
             { "dir": "$rootDir/src/modules" },
             {
                 "name": "c360/button",
-                "path": "node_modules/@salesforce-ux/c360-button/dist/button.js"
+                "path": "$rootDir/node_modules/@salesforce-ux/c360-button/dist/button.js"
+            },
+            {
+                "name": "utils/registerComponents",
+                "path": "$rootDir/src/modules/utils/registerComponents.js"
             }
         ]
     },

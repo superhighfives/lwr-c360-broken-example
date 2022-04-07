@@ -1,5 +1,5 @@
 import { LightningElement } from 'lwc';
-import "../../../utils/registerComponents"
+import "utils/registerComponents"
 
 export default class App extends LightningElement {
 }
