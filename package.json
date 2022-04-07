@@ -10,7 +10,7 @@
     "start": "lwr serve --mode prod",
     "start:compat": "lwr serve --mode compat",
     "start:prod-compat": "lwr serve --mode prod-compat",
-    "postinstall": "cp node_modules/@salesforce-ux/c360-styling-hooks/dist/hooks.custom-props.css src/assets/css/ && cp -r node_modules/@salesforce-ux/c360-button/ src/assets/c360-button"
+    "postinstall": "cp node_modules/@salesforce-ux/c360-styling-hooks/dist/hooks.custom-props.css src/assets/css/"
   },
   "dependencies": {
     "@salesforce-ux/c360-button": "^0.4.0",
