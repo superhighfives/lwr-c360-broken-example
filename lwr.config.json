@@ -2,7 +2,14 @@
     "lwc": {
         "modules": [
             { "dir": "$rootDir/src/modules" },
-            { "npm": "@salesforce-ux/c360-button" }
+            {
+                "name": "c360/button",
+                "path": "$rootDir/node_modules/@salesforce-ux/c360-button/dist/button.js"
+            },
+            {
+                "name": "utils/registerComponents",
+                "path": "$rootDir/src/modules/utils/registerComponents.js"
+            }
         ]
     },
     "routes": [
