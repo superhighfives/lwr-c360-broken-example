@@ -1,29 +1,29 @@
 # LWR C360 Broken Example
 
-This LWR example contains the minimum code needed to show the error importing C360 Button.
+This LWR example contains the minimum code needed to show the error importing [C360 Button](https://c360-subsystem-storybook.herokuapp.com/?path=/docs/c360-subsystem-components-button--base).
 
 ## Project Setup
 
 The directory structure looks like this:
 
-```
+```bash
 scripts/
-  └── start-server.mjs  // create and start server
+  └── start-server.mjs                  # create and start server
 src/
-  ├── assets/                           // static assets
+  ├── assets/                           # static assets
   │   └── css/
-          ├── hooks.custom-props.css    // (copied using `postinstall`)
+          ├── hooks.custom-props.css    # (C360 hooks, copied during `postinstall`)
   │       └── main.css
-  └── modules/                          // site pages
+  └── modules/                          # site pages
   │   └── home
   │       └── app
               ├── app.css
               ├── app.html
               └── app.js
-  └── layouts/                          // site page layouts
+  └── layouts/                          # site page layouts
       └── main_layout.njk
-lwr.config.json                         // lwr configuration
-package.json                            // npm packaging configuration
+lwr.config.json                         # lwr configuration
+package.json                            # npm packaging configuration
 ```
 
 ## Running the Project
