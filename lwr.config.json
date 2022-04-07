@@ -1,0 +1,16 @@
+{
+    "lwc": {
+        "modules": [
+            { "dir": "$rootDir/src/modules" },
+            { "npm": "@salesforce-ux/c360-button" }
+        ]
+    },
+    "routes": [
+        {
+            "id": "Home",
+            "path": "/",
+            "rootComponent": "home/app",
+            "layoutTemplate": "$layoutsDir/main_layout.njk"
+        }
+    ]
+}
